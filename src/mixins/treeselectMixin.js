@@ -1775,7 +1775,7 @@ export default {
       } else {
         this.$emit('deselect', node.raw, this.getInstanceId())
       }
-
+      console.log('TEST LOG');
       if (this.localSearch.active && nextState && (this.single || this.clearOnSelect)) {
         this.resetSearchQuery()
       }
